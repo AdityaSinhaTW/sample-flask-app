@@ -3,8 +3,9 @@ Flask-SQLAlchemy==2.1
 Flask-Script==2.0.5
 Jinja2==2.9
 MarkupSafe==0.23
-SQLAlchemy==1.1.4
+SQLAlchemy==1.2.18
 Werkzeug==1.0.1
 gunicorn==20.0.4
 itsdangerous==0.24
 psycopg2-binary==2.8.4
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
